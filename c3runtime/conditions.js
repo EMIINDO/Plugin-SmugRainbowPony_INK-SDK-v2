@@ -1,7 +1,8 @@
 "use strict";
 
 {
-	globalThis.C3.Plugins.SmugRainbowPony_INK.Cnds =
+    const C3 =  globalThis.C3;
+	C3.Plugins.SmugRainbowPony_INK.Cnds =
 	{
 		CanContinue() {
 			return this._story.canContinue;

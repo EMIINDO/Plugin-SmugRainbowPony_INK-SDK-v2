@@ -1,7 +1,8 @@
 "use strict";
 
 {
-    globalThis.C3.Plugins.SmugRainbowPony_INK.Exps = {
+    const C3 =  globalThis.C3;
+    C3.Plugins.SmugRainbowPony_INK.Exps = {
         StateToJson() {
             return this._story.state.ToJson();
         },

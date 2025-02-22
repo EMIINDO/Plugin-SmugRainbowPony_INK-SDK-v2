@@ -1,7 +1,9 @@
 "use strict";
 
 {
-    globalThis.C3.Plugins.SmugRainbowPony_INK.Acts = {
+    const C3 =  globalThis.C3;
+
+    C3.Plugins.SmugRainbowPony_INK.Acts = {
         SetStory(jsonstr) {
             this._SetStory(jsonstr);
         },
